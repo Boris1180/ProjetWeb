@@ -1,0 +1,130 @@
+/* Style global */
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header, main, footer {
+	width: 80%;
+	margin: 0 auto;
+  }
+  
+  /* Barre de navigation stylisé*/
+  nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #f1f1f1;
+  }
+  
+  nav .logo {
+	font-size: 2rem;
+	font-weight: bold;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  nav li {
+	margin-right: 20px;
+  }
+  
+  nav a {
+	color: #333;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+  nav a:hover {
+	background-color: #0066ff;
+	color: #fff;
+  }
+  
+  /* Styles Hero */
+  #hero {
+	background-image: linear-gradient(to right, #f1f1f1, #333);
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+  }
+  
+  #hero h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+  }
+  
+  #hero p {
+	font-size: 1.2rem;
+	margin-bottom: 40px;
+  }
+  
+  #hero #cta-btn {
+	background-color: #0066ff;
+	color: #fff;
+	padding: 14px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  #hero #cta-btn:hover {
+	background-color: #333;
+  }
+  
+  /* Styles Hero*/
+  #about {
+	padding: 50px 0;
+	text-align: center;
+  }
+  
+  #about h2 {
+	margin-bottom: 20px;
+  }
+  
+  /* Styles service */
+  #services {
+	padding: 50px 0;
+  }
+  
+  #services h2 {
+	margin-bottom: 20px;
+  }
+  
+  #services ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  #services li {
+	width: 25%;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  /* Section Styles Portfolio */
+  #portfolio {
+	padding: 50px 0;
+	text-align: center;
+  }
+  
+  #portfolio h2 {
+	margin-bottom: 20px;
+  }
+  
+  #portfolio .img-container {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+	border
+  
